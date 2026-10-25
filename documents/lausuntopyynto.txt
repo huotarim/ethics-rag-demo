@@ -1,0 +1,241 @@
+
+LAUSUNTOPYYNTÖ TUTKIMUKSEN EETTISESTÄ ENNAKKOARVIOINNISTA
+Lomaketta käytetään haettaessa Pääkaupunkiseudun ammattikorkeakoulujen ihmistieteiden eettisen toimikunnan lausuntoa tutkimushankkeiden eettisyydestä, ellei lainsäädännössä arviointia ole muille tahoille määrätty. Lääketieteellisen tutkimuslain alaisen tutkimusten eettisyyden arvioi aina alueellinen lääketieteellinen eettinen toimikunta. Kliinisiin lääketutkimuksiin haetaan ensin valtakunnalliselta lääketieteelliseltä eettiseltä toimikunnalta (TUKIJA), jonka perusteella eettisen ennakkoarvioinnin tekee TUKIJA tai alueellinen lääketieteellinen eettinen toimikunta.
+
+Voit käyttää tätä lomaketta dokumentoimaan omaan tutkimukseesi / opinnäytetyöhösi liittyvien tutkimuseettisten seikkojen pohdintaa myös silloin, kun tutkimuksesi / opinnäytetyösi ei tarvitse eettistä ennakkoarviointia.
+
+Tiedot tutkimuksesta / opinnäytetyöstä
+
+Tutkija / opinnäytetyöntekijä
+
+Organisaatio
+
+Sähköposti
+
+Puhelin
+
+Tutkimuksesta vastaava henkilö /
+opinnäytetyön ohjaaja
+
+Nimi
+
+Oppiarvo, toimi
+
+Organisaatio
+
+Sähköposti
+
+Puhelin
+
+Tutkimuksen nimi
+(myös englanniksi, jos toimikunnalta tarvitaan englanninkielinen lausunto)
+
+Lyhyt kuvaus tutkimuksesta
+(Mihin ongelmaan haetaan ratkaisua? Tarkennettu tutkimuskysymys, käytettävät metodit, toivottu tulos, tulosten hyödyntäminen ja hyödyntäjät. Mitä uutta tietoa tutkimus tuo? Uuden tiedon merkitys? Jos kyseessä iso hanke, kuvaile kohdat, joihin haluat toimikunnan ottavan kantaa.) Enintään 300 sanaa.
+
+Tutkimuksen arvioitu alkaminen
+
+Arvioitu kesto
+
+Aineistonkeruu aloitetaan [pvm]
+
+Minkälaiseen kokonaisuuteen tutkimus kuuluu? 
+Hankkeen toimijat (tutkimuslaitokset, korkeakoulut, niiden yksiköt/laitokset ja tutkijat; muut osallistuvat yksiköt ja niiden tutkijat)
+
+Hankkeen rahoittajat ja rahoitussummat
+
+Onko kyseessä:
+Uusi tutkimus 
+  Tutkimukseen on tehty muutoksia ja pyydetään uusi lausunto
+Aiemman lausunnon päivämäärä: ____________
+Mitä muutoksia tutkimukseen on tehty aiemman ennakkoarviointilausunnon saamisen jälkeen? Lyhyt kuvaus muutoksista luettelona, enintään 200 sanaa.
+
+Lausunnon hakijan arvio eettisen ennakkoarvioinnin tarpeellisuudesta
+
+Onko kyseessä lääketieteellistä tutkimusta koskevan lain alainen tutkimus, eli:
+Kyllä
+Ei
+1.
+Onko kyseessä tieteellinen tutkimus?
+Lääketieteen tutkimuslain tarkoittama tutkimus on tieteellinen, jos:
+siitä vastaavalla henkilöllä on ko. tutkimuksen edellyttämä ammatillinen ja tieteellinen pätevyys
+tutkimukselle on tehty tieteellisen tutkimuksen tutkimussuunnitelma
+tarkoitus on lisätä tietoa tieteellisen menetelmän avulla
+tutkimuksen tulokset on tarkoitus julkaista kaikkien saataville johonkin tiedeyhteisön hyväksymään julkaisukanavaan
+Huom! AMK-opinnäytetyö täyttää harvoin tieteellisen tutkimuksen kriteerit. Jos ONT on osa isompaa tutkimushanketta, haetaan eettinen ennakkoarviointi koko tutkimussuunnitelmalle.
+2.
+Onko tutkimuksen tarkoituksena lisätä tietoa terveydestä, sairauksien syistä, oireista, diagnostiikasta, hoidosta, ehkäisystä tai tautien olemuksesta yleensä?
+3.
+Puututaanko tutkimuksessa ihmisen fyysiseen koskemattomuuteen?
+Fyysiseen koskemattomuuteen puuttumista ovat esimerkiksi verinäytteiden, biopsioiden ja vastaavien ottaminen, fyysistä rasitusta sisältävät tutkimukset sekä tutkimukset, joissa pyritään vaikuttaman terveyteen tai sairauksien riskiin tai oireisiin.
+4.
+Puututaanko tutkimuksessa ihmisen psyykkiseen koskemattomuuteen?
+Psyykkiseen koskemattomuuteen puuttumista on, jos tutkimuksesta voi aiheutua vaaraa tutkimushenkilön henkiselle hyvinvoinnille.
+Jos vastasit “kyllä” kysymyksiin nro 1 ja 2 sekä kysymykseen 3 tai 4, tutkimukselle on saatava ennen sen aloittamista puoltava lausunto alueelliselta lääketieteelliseltä eettiseltä toimikunnalta. 
+Lisätietoja: HUS eettisten toimikuntien nettisivuilta 
+Huom!
+Jos kyseessä ei ole tieteellinen tutkimus, vaan anonyymisti toteutettava mielipidekysely, et tarvitse eettistä ennakkoarviointia
+Jos haastattelututkimuksessa kerätään erityisen henkilökohtaisia tai arkaluonteisia terveydentilatietoja ja tarkoitus on tutkia sairauksia tai niiden hoitoa, kyse saattaa olla lääketieteellisestä tutkimuksesta, missä puututaan psyykkiseen koskemattomuuteen. Silloin eettisen ennakkoarvioinnin tekee alueellinen lääketieteellinen eettinen toimikunta
+Pelkästään rekisteritietoihin perustuvat tutkimukset tai potilasasiakirjoihin perustuvat tutkimukset (tutkittaviin ei oteta yhteyttä) eivät tarvitse eettistä ennakkoarviointia
+Terveydenhuollossa tehtävät palvelukehitys- ja havainnointitutkimukset sekä laatu- ja prosessihankkeet, kun niissä ei puututa ihmisen koskemattomuuteen, eivät kuulu lääketieteellistä tutkimusta koskevan lain piiriin
+
+Kyllä
+Ei
+5.
+Onko kyseessä muu kuin lääketieteen tutkimuslain alainen ihmiseen kohdistuva tutkimus?
+Eli humanististen alojen ja yhteiskuntatieteiden ohella esim. ihmisiin kohdistuva luonnontieteellinen ja tekniikan alan tutkimus, taiteellinen tutkimus ja ei-kajoava terveys- tai lääketieteellinen tutkimus ml. liikuntatieteellinen ja ravitsemustieteellinen tutkimus.
+6.
+Poiketaanko tutkimukseen osallistumisessa tietoon perustuvan suostumuksen periaatteesta?
+Tietoon perustuva suostumus tarkoittaa sitä, että:
+tutkittava tietää olevansa tutkittavana
+tutkittava saa ymmärrettävästi ja totuudenmukaisesti tietoa tutkimuksesta
+tutkittavalla on riittävästi aikaa päätöksentekoon ja mahdollisuus kysyä lisätietoa
+tutkittavalle ei saa tulla tunnetta osallistumisen pakollisuudesta eikä pelkoa kielteisistä seurauksista, jos hän kieltäytyy osallistumasta
+tutkittava osoittaa aktiivisesti halukkuutensa osallistua tutkimukseen 
+tutkittavalla on oikeus keskeyttää osallistumisensa tai peruuttaa suostumuksensa syytä ilmoittamatta ennen tutkimuksen päättymistä
+7
+Onko tutkittavien joukossa henkilöryhmiä, joiden vapaaehtoisuus tutkimukseen osallistumisesta voidaan kyseenalaistaa?
+Tutkijaan tai tutkimusta tekevään organisaatioon riippuvuussuhteessa olevat henkilöt. esim. tutkijan omat asiakkaat, alaiset, opiskelijat, oppilaat.
+8.
+Puututaanko tutkimuksessa tutkittavien fyysiseen koskemattomuuteen?
+Esim. fyysisen kunnon mittaaminen, fysiologisen näytteen otto, elintarvikkeen tai muun nieltävän valmisteen nauttiminen tai fyysisen vapauden rajoittaminen niin, että tutkittavalla ei ole mahdollisuutta kohtuullisessa ajassa keskeyttää osallistumistaan tutkimukseen.
+9.
+Kohdistuuko tutkimus alle 15-vuotiaisiin ilman huoltajan erillistä suostumusta tai informointia, jonka perusteella huoltajalla olisi mahdollisuus kieltää lasta osallistumasta tutkimukseen?
+Alle 15-vuotiaiden tutkittavien osallistumiseen tarvitaan pääsääntöisesti huoltajan suostumus. Pelkkä huoltajien informointi tutkimuksesta riittää jos:
+kyseessä on vähintään 400 henkilölle kohdistuva kyselytutkimus
+tutkittavia havainnoidaan ilman tallennevälineitä ja henkilötietojen käsittelyä
+10.
+Esitetäänkö tutkittaville poikkeuksellisen voimakkaita ärsykkeitä? 
+Esim. väkivaltaa tai pornografiaa sisältävät materiaalit, tutkittavan arvomaailmaan täysin sopimattomat ajatukset tai materiaalit.
+11.
+Onko tutkimuksessa riski aiheuttaa tutkittaville tai heidän läheisilleen normaalin arkielämän rajat ylittävää henkistä haittaa?
+Esim. tutkimus liittyy tutkittavien tai heidän läheistensä traumaattisiin kokemuksiin.
+12.
+Voiko tutkimuksen toteuttaminen merkitä turvallisuusuhkaa tutkittavalle tai tutkijalle tai heidän läheisilleen?
+Esim. perheväkivaltaa koskevat tutkimukset, kriisitilanteissa tai -alueilla toteutettavat tutkimukset. Myös tietoturvariskit voivat olla turvallisuusuhka, jos tutkittavien henkilötietoja esimerkiksi kerätään ja yhdistetään useista eri lähteistä.
+Jos vastasit “kyllä” kysymykseen nro 5 ja johonkin kysymyksistä 6 - 12, tutkimukselle on saatava ennen aineistonkeruuta ennakkoarviointilausunto ihmistieteiden eettiseltä toimikunnalta.
+Jos ennakkoarviointilausuntoa ei pyydetä tai tutkija ei noudata saamansa lausunnon ohjeistusta, kyseessä voi olla hyvän tieteellisen käytännön (HTK) loukkaus, joka voidaan tarvittaessa selvittää HTK-loukkauksia koskevien epäilyjen käsittelyprosessissa.
+Lisätietoa: Tutkimuseettisen neuvottukunnan (TENK) sivuilta
+13.
+Onko sinulla jokin muu syy pyytää eettistä ennakkoarviointia kuin edellä olevissa kysymyksissä 6 - 12 mainittu?
+Esim. rahoittajan, yhteistyökumppanin, tutkimuskohteen tai julkaisijan vaatimus.
+Tällöin eettinen toimikunta voi antaa lausunnon sijaan kuvauksen Suomen eettisen ennakkoarvioinnin käytännöistä ja siitä, milloin Suomessa tarvitaan eettinen ennakkoarviointi.
+14.
+Perustuuko tutkimus vain julkisiin tietoihin, rekisteri- ja asiakirja-aineistoihin tai arkistoaineistoon?
+Jos vastasit “kyllä”, et tarvitse eettistä ennakkoarviointilausuntoa ihmistieteiden eettiseltä toimikunnalta, ellei tutkittaviin kohdistu kohdassa 12. mainittua turvallisuusuhkaa. Myös tietoturvariski voi olla turvallisuusuhka, jos henkilötietoja kerätään ja yhdistetään useista eri lähteistä. Tällöin myös rekisteritutkimus tarvitsee eettisen ennakkoarvioinnin ihmistieteiden eettiseltä toimikunnalta.
+
+Lausunnon hakijan näkemys tutkimukseen liittyvistä eettisistä kysymyksistä ja niiden ratkaisemisesta
+
+Tutkittavien informointi ja suostumus 
+Jos lausuntopyynnön liitteenä olevista tutkittavan informointimateriaalista ja suostumuslomakkeesta käy ilmi selvästi alla olevat asiat, voit jättää vastaamatta kysymyksiin 15 - 19.
+15.
+Kuinka rekrytoit tutkittavat mukaan tutkimukseen?
+
+16.
+Kuinka kerrot tutkittaville tutkimuksesta ja siihen osallistumisesta ymmärrettävästi ja totuudenmukaisesti?
+Huomioi erityisesti tilanteet, missä tutkittavat ovat alaikäisiä, vajaakykyisiä, haavoittuvassa asemassa olevia tai kommunikointi on haasteellista esim. kielitaidon, aistivamman tms. vuoksi.
+
+17.
+Jos tutkittavat ovat alle 15-vuotiaita, kuinka kerrot heidän huoltajilleen tutkimuksesta ja siihen osallistumisesta?
+
+18.
+Kuinka varmistat, että osallistuminen on aidosti vapaaehtoista? Onko tutkittavissa henkilöryhmiä, joiden vapaaehtoisuus voidaan kyseenalaistaa? Kuinka näiden henkilöiden suostumuksen vapaaehtoisuus on turvattu? Tutkittavalle ei saa tulla tunnetta kielteisistä seurauksista, jos hän ei halua osallistua tutkimukseen tai hän haluaa perua suostumuksensa myöhemmin. 
+Esim. jos tutkittava on haavoittuvassa asemassa tai olet tutkittavaan nähden myös muussa roolissa kuin tutkijana (esimies, kollega, palveluntuottaja…), tutkittavalle ei saa tulla tunnetta, että kieltäytymien vaikuttaisi hänen kohteluunsa, oikeuksiinsa tai saamaansa palveluun/hoitoon tms. Tutkittavan tunteisiin ei myöskään saa vedota, tutkittavaa ei saa houkutella tai lahjoa osallistumaan. Jos tutkimus toteutetaan osana opintoja, pitää opiskelijalla olla mahdollisuus suorittaa ko. opintopisteet myös muuten kuin osallistumalla tutkimukseen.
+
+19.
+Kuinka osoitat tutkittavan tietoon perustuvan suostumuksen?
+Huomaa, että vaikka huoltaja tai laillinen edustaja voi antaa luvan tutkimukseen osallistumiseen, päätöksen osallistumisesta tekee kukin tutkittava omalta osaltaan.
+Esim. allekirjoitettu lomake, sähköisen kyselyn ”hyväksyn”-nappi, ennalta saadun materiaalin perusteella saapuminen tutkimustilanteeseen… Huomaa, että suostumusta ei voi antaa passiivisesti kuten vaikenemalla, valmiiksi rastitetulla ruudulla tai jättämällä jotain tekemättä.
+
+20.
+Aiotko poiketa tutkittavien tietoisesta suostumuksesta osallistua tutkimukseen? Aiotko olla antamatta tutkittaville riittävästi tai oikeaa tietoa tutkimuksesta? Perustele ratkaisusi.
+Jos tutkimus on perusteltu, mutta sitä ei voi toteuttaa niin, että tutkittavilta pyydetään suostumus osallistua tutkimukseen. Esim. jos tieto tutkittavana olosta vaikuttaisi tutkimustulokseen. Tai jos käytetään vanhaa aineistoa, eikä tutkittavilta voi enää pyytää suostumusta.
+
+21.
+Aiotko tutkia alle 15-vuotiaita ilman huoltajan erillistä suostumusta tai informointia? Perustele ratkaisusi. Miten varmistat, että tutkittavaksi pyydettävät ymmärtävät tutkimuksen aiheen ja sen, mitä tutkimukseen osallistuminen heiltä edellyttää?
+Esim. jos tutkitaan asioita, joista huoltajien tieto tutkimuksesta vaikuttaa tutkimuksen tulokseen (mm. perheväkivalta) tai tutkittavat itse eivät halua huoltajansa tietävän (mm. päihteiden käyttö, seksuaalisuus ja vastaavat).
+
+Henkilötietojen käsittely tutkimuksessa 
+Jos lausuntopyynnön liitteenä on aineistonhallintasuunnitelma ja tutkimuksen tietosuojailmoitus, joista alla olevat tiedot käyvät selvästi ilmi, voit jättää vastaamatta kysymyksiin 22 - 30.
+22.
+Käsitteletkö tutkimuksessasi henkilötietoja? Mitä ja miksi?
+Henkilötiedolla tarkoitetaan kaikkia tunnistettuun tai tunnistettavissa olevaan luonnolliseen henkilöön liittyviä tietoja. Tutkimusaineisto sisältää henkilötietoja, jos siitä voidaan suoraan tai epäsuorasti tunnistaa henkilö tai henkilöitä käyttäen kohtuullisia keinoja.
+
+23.
+Käsitteletkö tutkimuksessasi erityisiin henkilötietoryhmiin kuuluvia (arkaluonteisia) henkilötietoja? Mitä ja miksi?
+Erityisillä henkilötietoryhmillä tarkoitetaan tietoja, joista ilmenee rotu tai etninen alkuperä, poliittisia mielipiteitä, uskonnollinen tai filosofinen vakaumus tai ammattiliiton jäsenyys, geneettiset tiedot, henkilön tunnistamista varten käytetyt biometriset tiedot, terveyttä koskevat tiedot ja seksuaalista käyttäytymistä tai suuntautumista koskevat tiedot.
+
+24.
+Mikä on henkilötietojen laillinen käsittelyperusteesi?
+Henkilötietoja saa käsitellä vain, kun siihen on lainmukainen käsittelyperuste
+
+  Yleisen edun mukainen tieteellinen tutkimus
+  Tutkittavan (rekisteröidyn) suostumus
+  Jokin muu, mikä?
+25.
+Jos henkilötietojen käsittelyperusteesi on tutkittavan (rekisteröidyn) suostumus, kuinka osoitat suostumuksen?
+
+26.
+Kuka tai ketkä on rekisterinpitäjiä? 
+Rekisterinpitäjä määrittelee henkilötietojen käyttötarkoituksen ja käsittelytavan sekä vastaa rekisterin tietosuojasta
+
+27.
+Kuvaa, miten henkilötietoja käsitellään aineistoa analysoitaessa ja tutkimuksen tuloksia raportoitaessa. Ketkä käsittelevät? Milloin ja miten aineisto pseudonymisoidaan ja/tai anonymisoidaan? Säilytetäänkö henkilötietoja tietojen yhdistämistä varten?
+Henkilötiedot on pääsääntöisesti poistettava aineistosta, kun ne eivät ole enää tarpeellisia tutkimuksen toteuttamiseksi tai tutkimuksen tuloksen varmistamiseksi
+
+28.
+Onko mahdollista, että yksittäiset tutkittavat on tunnistettavissa tutkimusjulkaisuissa esim. otoksen pienen koon tai tutkittavien julkisen aseman vuoksi?
+Tutkittaville tai tietoja tutkimukseen antaneille ei tule luvata täyttä tunnistamattomuutta, ellei se ole toteutettavissa.
+
+Mitä tapahtuu tutkimusaineistolle tutkimuksen päättymisen jälkeen?
+29.
+Onko tutkimusaineisto hyödyllinen myös jatkotutkimuksia ajatellen ja voisiko sen tallentaa avoimen tieteen periaatteiden mukaisesti myös muiden tutkijoiden saataville? Kuka huolehtii aineiston anonymisoinnista ja tallentamisesta muiden tutkijoiden saataville?
+Huom! Tutkittavia henkilöitä pitää informoida aineiston tallentamisesta jatkokäyttöä varten jo tietojen keruuvaiheessa
+
+30.
+Jos aineistoa ei voi tallentaa ja avata muiden tutkijoiden käyttöön, kuka tuhoaa sen, miten ja milloin?
+
+Muut mahdolliset tutkittaviin, tutkijoihin tai heidän läheisiin kohdistuvat riskit ja haitat
+31.
+Jos tutkittaville esitetään poikkeuksellisen voimakkaita ärsykkeitä tai on riski aiheuttaa tutkittavalle tai heidän läheisilleen normaalin arkielämän rajat ylittävää henkistä haittaa, miten olet varautunut mahdollisiin negatiivisiin seurauksiin?
+Esim. jos tutkimus käsittelee traumaattisia kokemuksia, onko tutkittaville tarjolla apua? Miten apu on järjestetty?
+
+32.
+Voiko tutkimuksesta seurata turvallisuusuhkaa tutkittavalle, tutkijalle tai heidän läheisilleen? Mitä teet riskin pienentämiseksi?
+
+33.
+Voiko tutkittaville mielestäsi aiheutua tutkimuksesta jotain muuta riskiä tai haittaa? Miten estät tai vähennät tuota riskiä tai haittaa?
+
+34.
+Jos tutkimukseen liittyvissä mittauksissa, kuvantamisessa tms. löytyy jotain odottamatonta (esim. viitteitä sairaudesta, josta tutkittava ei ole tietoinen), miten toimit?
+
+Tutkimuksesta vastaavan henkilön / opinnäytetyön ohjaajan arvio tutkimuksen tutkittaville, tutkijalle tai heidän läheisilleen mahdollisesti aiheuttamista riskeistä tai haitoista ja tutkijan suunnitelmasta niiden ehkäisemiseksi (enintään 300 sanaa)
+
+Allekirjoitukset
+
+ARVIOI VIELÄ HUOLELLISESTI ENNEN LAUSUNTOPYYNNÖN ALLEKIRJOITTAMISTA JA LÄHETTÄMISTÄ: 
+
+Mikäli päädyt siihen, että tutkimuksesi/ opinnäytetyösi ei edellytä eettisen toimikunnan ennakkoarviointia, älä lähetä hakemusta. Voit hyödyntää lomakkeen sisältöjä tutkimuksesi tukena. 
+
+Mikäli päädyt siihen, että tutkimuksesi/ opinnäytetyösi edellyttää eettisen toimikunnan ennakkoarviointia, tuo perusteet lausuntopyynnön hakemiselle selkeästi esille JA varmista, että lausuntopyyntölomakkeen sisältö ja liitteet ovat samansisältöiset.
+Vakuutan, että olen pohtinut tämän tutkimuksen / opinnäytetyön tutkittaville, tutkijalle tai heidän läheisilleen mahdollisesti aiheuttamia riskejä tai haittoja ja antanut niistä edellä totuudenmukaisen kuvan. 
+Vakuutan, että tutkimus / opinnäytetyö toteutetaan suunnitelman mukaisesti.
+Mielestäni tämä tutkimus / opinnäytetyö voi aiheuttaa tutkittaville, tutkijalle tai heidän läheisilleen riskejä tai haittoja, jotka edellyttävät eettisen toimikunnan ennakkoarviointia.
+
+Tutkijan / opinnäytetyöntekijän allekirjoitus:
+Päiväys:
+Tutkimuksesta vastaavan henkilön / opinnäytetyön ohjaajan allekirjoitus:
+Päiväys:
+
+Lausuntopyynnön liitteet
+
+Pakolliset liitteet
+Tutkimussuunnitelma
+Aineistonhallintasuunnitelma
+Tutkimusasetelmasta riippuen
+Tutkittavien rekrytointi-ilmoitus
+Tutkittavan informaatiomateriaali
+Tutkittavan suostumuslomake
+Jos tutkittavista kerätään tunnisteellisia henkilötietoja: tutkimuksen tietosuojaseloste ja tarvittaessa DPIA
+Tutkittavalle toimitettava muu materiaali, kuten kyselylomake, haastattelurunko tms.
+Muu, mikä?

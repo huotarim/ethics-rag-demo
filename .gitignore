@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local vector database
+chroma_db/
+
+# macOS
+.DS_Store
+
+# Confidential documents
+documents/private/
