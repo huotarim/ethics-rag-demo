@@ -1,5 +1,6 @@
 import chromadb
 from pathlib import Path
+from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
 # Read extracted text
 file_path = Path("documents/lausuntopyynto.txt")
@@ -38,10 +39,14 @@ for index, chunk in enumerate(chunks, start=1):
 # Create persistent vector database
 client = chromadb.PersistentClient(path="./chroma_db")
 
-collection = client.get_or_create_collection(
-    name="ethics_documents"
+multilingual_ef = SentenceTransformerEmbeddingFunction(
+    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 
+collection = client.get_or_create_collection(
+    name="ethics_documents_multilingual",
+    embedding_function=multilingual_ef
+)
 # Remove old chunks for the document in process
 old_chunks = collection.get(
     where={"document_id": document_id}

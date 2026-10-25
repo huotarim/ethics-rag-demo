@@ -1,9 +1,17 @@
 import chromadb
+from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
 # Open existing database
 client = chromadb.PersistentClient(path="./chroma_db")
 
-collection = client.get_collection(name="ethics_documents")
+multilingual_ef = SentenceTransformerEmbeddingFunction(
+    model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+)
+
+collection = client.get_collection(
+    name="ethics_documents_multilingual",
+    embedding_function=multilingual_ef
+)
 
 # Search question
 question = "Milloin tutkimus tarvitsee eettisen ennakkoarvioinnin?"
@@ -20,6 +28,8 @@ for index, document in enumerate(results["documents"][0], start=1):
     print(f"\n--- RESULT {index} ---")
     print(f"Source: {metadata['source']}")
     print(f"Chunk: {metadata['chunk_id']}")
+    distance = results["distances"][0][index - 1]
+    print(f"Distance: {distance:.4f}")
     print(document)
 
 # Find the ranking of chunk 4
