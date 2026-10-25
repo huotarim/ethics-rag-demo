@@ -1,23 +1,18 @@
-"""EthicsRAG Streamlit application.
-
-Initializes the document collection in-process when empty, using the same
-embedding model for indexing and retrieval.
-"""
+"""EthicsRAG: lightweight, local TF-IDF retrieval demo (no ML model)."""
+from collections import Counter
+from math import log, sqrt
 from pathlib import Path
-import logging
+import re
 
-import chromadb
 import streamlit as st
-from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("ethicsrag")
-
-COLLECTION_NAME = "ethics_documents_multilingual"
-MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 DOCUMENT_PATH = Path(__file__).resolve().parent / "documents" / "lausuntopyynto.txt"
-DATABASE_PATH = Path(__file__).resolve().parent / "chroma_db"
 CHUNK_SIZE = 500
+TOKEN_PATTERN = re.compile(r"[^\W_]+", re.UNICODE)
+
+
+def tokenize(text: str) -> list[str]:
+    return TOKEN_PATTERN.findall(text.casefold())
 
 
 def split_into_chunks(text: str) -> list[str]:
@@ -34,73 +29,65 @@ def split_into_chunks(text: str) -> list[str]:
     return chunks
 
 
-@st.cache_resource(show_spinner="Preparing the multilingual search model and database…")
-def load_database():
-    # The same embedding function is used for indexing and querying.
-    # Crucially, no separate Python subprocess loads a second model.
-    logger.info("Opening Chroma database")
-    client = chromadb.PersistentClient(path=str(DATABASE_PATH))
-    embedding_function = SentenceTransformerEmbeddingFunction(model_name=MODEL_NAME)
-    collection = client.get_or_create_collection(
-        name=COLLECTION_NAME, embedding_function=embedding_function
-    )
+@st.cache_resource(show_spinner="Loading the document and building a small search index…")
+def load_index():
+    if not DOCUMENT_PATH.is_file():
+        raise FileNotFoundError(f"Source document not found: {DOCUMENT_PATH}")
+    chunks = split_into_chunks(DOCUMENT_PATH.read_text(encoding="utf-8"))
+    if not chunks:
+        raise ValueError("Source document is empty")
 
-    if collection.count() == 0:
-        if not DOCUMENT_PATH.is_file():
-            raise FileNotFoundError(
-                f"Required source document missing: {DOCUMENT_PATH}. "
-                "Ensure documents/lausuntopyynto.txt exists in the project."
-            )
-        logger.info("Indexing document: %s", DOCUMENT_PATH.name)
-        chunks = split_into_chunks(DOCUMENT_PATH.read_text(encoding="utf-8"))
-        if not chunks:
-            raise ValueError(f"Source document is empty: {DOCUMENT_PATH}")
-        document_id = DOCUMENT_PATH.stem
-        collection.upsert(
-            ids=[f"{document_id}_chunk_{i}" for i in range(len(chunks))],
-            documents=chunks,
-            metadatas=[
-                {"document_id": document_id, "source": DOCUMENT_PATH.name, "chunk_id": i}
-                for i in range(len(chunks))
-            ],
-        )
-        logger.info("Indexed %s chunks", len(chunks))
-    return collection
+    counts = [Counter(tokenize(chunk)) for chunk in chunks]
+    doc_freq = Counter()
+    for count in counts:
+        doc_freq.update(count.keys())
+    n = len(chunks)
+    idf = {term: log((1 + n) / (1 + freq)) + 1 for term, freq in doc_freq.items()}
+    vectors = []
+    for count in counts:
+        weights = {term: (1 + log(freq)) * idf[term] for term, freq in count.items()}
+        norm = sqrt(sum(weight * weight for weight in weights.values())) or 1.0
+        vectors.append({term: weight / norm for term, weight in weights.items()})
+    return chunks, idf, vectors
+
+
+def search(question: str, chunks, idf, vectors, limit=3):
+    count = Counter(tokenize(question))
+    query = {term: (1 + log(freq)) * idf[term] for term, freq in count.items() if term in idf}
+    norm = sqrt(sum(weight * weight for weight in query.values()))
+    if norm == 0:
+        return []
+    query = {term: weight / norm for term, weight in query.items()}
+    scored = [
+        (sum(weight * vector.get(term, 0.0) for term, weight in query.items()), index)
+        for index, vector in enumerate(vectors)
+    ]
+    best = sorted((item for item in scored if item[0] > 0), reverse=True)[:limit]
+    return [(index, chunks[index], score) for score, index in best]
 
 
 st.title("EthicsRAG")
-st.caption("Research Ethics Guidance — Retrieval Demo")
+st.caption("Research Ethics Guidance — Lightweight Retrieval Demo (TF-IDF)")
 st.info(
-    "This prototype retrieves relevant passages from research ethics guidance "
-    "documents. It does not make ethical decisions."
+    "This prototype retrieves passages from research ethics guidance documents. "
+    "It does not make ethical decisions. Search uses lexical TF-IDF matching, not a language model."
 )
-
 question = st.text_input(
     "Ask a question about research ethics:",
     "Milloin tutkimus tarvitsee eettisen ennakkoarvioinnin?",
 )
-
 if st.button("Search"):
     if not question.strip():
         st.warning("Please enter a question.")
     else:
         try:
-            with st.spinner("Searching the document… First search may take longer."):
-                collection = load_database()
-                count = collection.count()
-                if count == 0:
-                    st.warning("The database contains no passages.")
-                    st.stop()
-                results = collection.query(query_texts=[question], n_results=min(3, count))
-            for index, document in enumerate(results["documents"][0], start=1):
-                metadata = results["metadatas"][0][index - 1] or {}
-                st.subheader(f"Result {index}")
-                st.write(document)
-                st.caption(
-                    f"Source: {metadata.get('source', 'unknown')} | "
-                    f"Chunk: {metadata.get('chunk_id', '?')}"
-                )
-        except Exception as exc:
-            logger.exception("EthicsRAG search failed")
+            chunks, idf, vectors = load_index()
+            results = search(question, chunks, idf, vectors)
+            if not results:
+                st.warning("No matching passages found. Try using words from the source document (Finnish).")
+            for rank, (chunk_id, passage, score) in enumerate(results, start=1):
+                st.subheader(f"Result {rank}")
+                st.write(passage)
+                st.caption(f"Source: {DOCUMENT_PATH.name} | Chunk: {chunk_id} | TF-IDF similarity: {score:.3f}")
+        except (OSError, ValueError) as exc:
             st.error(f"Search could not start: {exc}")
-            st.caption("Check the terminal logs for details. Loading the embedding model may require substantial memory.")
